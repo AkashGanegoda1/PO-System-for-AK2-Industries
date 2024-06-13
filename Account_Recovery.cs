@@ -59,7 +59,7 @@ namespace Purchasing_Order
                 {
                     MailMessage msg = new MailMessage
                     {
-                        From = new MailAddress("ak2.industries.pvt.ltd@gmail.com")
+                        From = new MailAddress("")
                     };
                     msg.To.Add(txt_email.Text);
                     msg.Subject = "AK2 INDUSTRIES";
@@ -71,8 +71,8 @@ namespace Purchasing_Order
                     };
                     NetworkCredential ntcd = new NetworkCredential
                     {
-                        UserName = "ak2.industries.pvt.ltd@gmail.com",
-                        Password = "kjukzicspqdnmmqn"
+                        UserName = "",
+                        Password = ""
                     };
                     smt.Credentials = ntcd;
                     smt.EnableSsl = true;
